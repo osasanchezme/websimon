@@ -1,105 +1,47 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# website Semillero de Investigación en MOdelación Numérica - SIMON
 
----
+En este repositorio se encuentra el código fuente (y compilado) de la página web del semillero de investigacion en modelación numérica - SIMON de la Universidad Nacional de Colombia, sede Bogotá.
 
-# svelte app
+## Visitar el sitio web
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+Para ir directamente a la página, dirigirse al siguiente [enlace](https://semilleromodelacionnumericaun.github.io/websimon/).
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+## Colaborar en el desarrollo del sitio web
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+Este sitio web se construyó como una app, utilizando [Svelte](https://svelte.dev). Si desea colaborar con el desarrollo de nuevos componentes, corrección de errores, actualización de contenidos, etc., debe hacer una copia de este repositorio (fork) en su cuenta de Github. Luego clonar el repositorio para tener una copia local en su PC. 
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+Una vez tenga una copia local del repositorio en su PC, tener en cuenta lo siguiente.
 
+### Antes de comenzar el desarrollo
 
-## Get started
-
-Install the dependencies...
+Instalar dependencias
 
 ```bash
-cd svelte-app
+cd websimon
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+### Comenzar servidor de desarrollo
+
+Lanzar [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navegar a [localhost:5000](http://localhost:5000). Usted debería ver la página del semillero corriendo desde un servidor local. Esta página se actualiza automáticamente cuando modifique los archivos fuente de los componentes, en la carpeta `src`.
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+### Compilar y correr la página para producción o publicación
 
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
+Usted puede generar una versión optimizada de la página con:
 
 ```bash
 npm run build
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
-
-
-## Single-page app mode
-
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
-
-```js
-"start": "sirv public --single"
-```
-
-## Using TypeScript
-
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+Y puede lanzar nuevamente un servidor local para ver la versión compilada con:
 
 ```bash
-node scripts/setupTypeScript.js
+npm run start
 ```
 
-Or remove the script via:
-
-```bash
-rm scripts/setupTypeScript.js
-```
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
