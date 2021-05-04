@@ -1,0 +1,36 @@
+:root {
+	--bgdark: #121212;
+	--bglight: #fff;
+	--grey: #121212;
+	--onlight: #333;
+	--ondark: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: var(--bglight);
+	color: var(--onlight);
+	font-family: 'Nunito', sans-serif;
+}
+
+.light-section {
+	background: var(--light);
+	color: var(--onlight);
+	padding: 20px 0;
+}
+
+.dark-section {
+	background: var(--bgdark);
+	color: white;
+	padding: 20px 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
