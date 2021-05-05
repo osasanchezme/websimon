@@ -31,26 +31,39 @@
   }
 
   .banner-text {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
   .banner-image {
-    flex: 1;
+    flex: 2;
     display: flex;
   }
 
-h1 {
-	font-size: 36px;
-	font-weight: 300;
-  padding: 20px 0;
-}
+  /* @keyframes showup { */
+  /*   0% {opacity: 1;} */
+  /*   50% {opacity: 0;} */
+  /*   100% {opacity: 1;} */
+  /* } */
 
-h2 {
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
+  /* .image { */
+  /*   opacity: 1; */
+  /*   animation-name: showup; */
+  /*   animation-delay: 1s; */
+  /*   animation-duration: 3s; */
+  /* } */
+
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 20px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 </style>

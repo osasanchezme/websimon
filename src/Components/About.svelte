@@ -41,10 +41,21 @@
 
   .about-image {
     flex: 2;
+    display: flex;
+    align-items: center;
   }
 
   .image {
     width: 90%;
+  }
+
+  @media (max-width: 600px){
+    .about-container {
+      flex-direction: column;
+    }
+    .image {
+      width: 300px;
+    }
   }
 
   .about-content {

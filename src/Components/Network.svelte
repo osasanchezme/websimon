@@ -9,10 +9,10 @@
     <div class="all-network">
       {#each network_list as item}
         <div class="network-card">
-          <img src={item.img} alt={item.name} />
+          <!--img src={item.img} alt={item.name} /-->
           <h3>{item.name}</h3>
-          <b>{item.institution}</b>
-          <a href={item.url}>{item.url}</a>
+          <p>{item.institution}</p>
+          <!--a href={item.url}>{item.url}</a-->
         </div>
       {/each}
     </div>
@@ -38,14 +38,14 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
   }
 
   .network-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
+    text-align: center;
   }
 
   h3 {

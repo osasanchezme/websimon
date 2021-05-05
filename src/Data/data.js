@@ -4,7 +4,6 @@ const HEADER = {
 };
 
 const NAVBAR_DATA = [
-  { url: "/", label: "Home" },
   { url: "#about-us", label: "Nosotros" },
   { url: "#projects", label: "Proyectos" },
   { url: "#developpers", label: "Desarrolladores" },
