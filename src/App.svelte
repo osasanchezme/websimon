@@ -8,7 +8,6 @@
   import Network from "./Components/Network.svelte";
   import Footer from "./Components/Footer.svelte";
   import DATA from "./Data/data.js";
-  console.log(DATA);
 </script>
 
 <Navbar header={DATA.HEADER} navlists={DATA.NAVBAR_DATA} />

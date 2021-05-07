@@ -31,24 +31,25 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
-    padding: 10px 0 30px 0;
+    margin-bottom: 1em;
   }
 
   .all-network {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 1em;
   }
 
   .network-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1em;
     text-align: center;
+    box-shadow: 5px 5px 20px;
   }
 
   h3 {
-    padding: 5px 0;
+    margin-bottom: 0.5em;
   }
 </style>
