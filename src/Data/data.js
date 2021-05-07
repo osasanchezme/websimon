@@ -90,7 +90,7 @@ const DEVELOPPERS_DATA = {
       description: "Una breve introducción a Svelte para desarrollo de páginas y aplicaciones web. Usamos la creación de una página web sencilla como pretexto para comenzar a aprender el uso de Svelte.",
       img: "images/ed-20210426-webpage.png",
       // github_url: "",
-      youtube_url: "https://youtu.be/moUh13NQIk8"
+      youtube_url: "https://youtu.be/qY1qVYg4AGc"
     }
 
   ]
