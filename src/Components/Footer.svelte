@@ -9,7 +9,7 @@
       <div class="logo">
         <img src={logo} alt="SIMON" class="img"/>
       </div>
-      <p class="copyright">@ 2021 - SIMON - unal</p>
+      <p class="copyright">&copy; 2021 - SIMON - unal</p>
     </div>
     <div class="footer-contact">
       <div class="contact-link">
