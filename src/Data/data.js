@@ -185,7 +185,7 @@ const FOOTER_DATA = {
   logo: "images/simon-logo.svg",
   description: "Estamos felices por recibir integrantes nuevos permanentemente. Por favor contáctenos por cualquier medio para participar en alguno de los proyectos que tenemos en curso.",
   contact_details: {
-    email: "sinmonfi_bog@unal.edu.co",
+    email: "simonfi_bog@unal.edu.co",
     discord: "https://discord.gg/e2VsNuR7gU",
     github: "https://github.com/SemilleroModelacionNumericaUN",
     youtube: "https://www.youtube.com/channel/UCTjqO__jhZ4QKdiYI8Qtytg"
